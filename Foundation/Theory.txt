@@ -1,0 +1,77 @@
+RETRIEVAL-AUGMENTED GENERATION (RAG) – THEORY
+
+What is RAG?
+Retrieval-Augmented Generation (RAG) is an AI approach that combines information retrieval with Large Language Models (LLMs) to generate accurate, context-aware responses.
+Instead of relying only on the model’s internal training data, RAG retrieves relevant external information and uses it while generating answers.
+
+In simple terms:
+RAG = Retrieve relevant data + Generate answer using LLM
+
+Why RAG is Important
+Large Language Models have limitations:
+
+They are trained on static data
+
+They cannot access private or updated information
+
+They may hallucinate incorrect answers
+
+They have limited context window (memory size)
+
+RAG overcomes these problems by:
+
+Allowing LLMs to use external knowledge
+
+Supporting private and custom datasets
+
+Reducing hallucinations
+
+Producing grounded and reliable outputs
+
+Core Components of a RAG System
+
+Data Source
+External knowledge such as PDFs, text files, databases, web pages, or APIs.
+
+Preprocessing and Chunking
+Large documents are split into smaller chunks so they can fit into the model’s context window.
+
+Embedding Model
+Each text chunk is converted into numerical vectors (embeddings) that represent semantic meaning.
+
+Vector Database
+Embeddings are stored in a vector database to enable fast similarity search.
+
+Retriever
+Given a user query, the retriever finds the most relevant chunks from the vector database.
+
+Large Language Model (LLM)
+The LLM receives the user query along with the retrieved context and generates the final response.
+
+How RAG Works (High-Level Flow)
+
+User asks a question
+
+The question is converted into embeddings
+
+Relevant document chunks are retrieved from the vector database
+
+Retrieved content is added to the prompt
+
+The LLM generates a final answer based on this context
+
+Context Window and RAG
+Each LLM has a fixed context window, which defines how many tokens it can process at one time.
+RAG helps manage this limitation by retrieving only the most relevant information instead of passing entire documents.
+
+Use Cases of RAG
+
+Document question answering
+
+AI chatbots and assistants
+
+Enterprise knowledge bases
+
+Customer support systems
+
+Internal search engines

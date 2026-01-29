@@ -1,0 +1,96 @@
+Google has its origins in "BackRub", a research project started in 1996 by Larry Page and Sergey Brin when they were both PhD students at Stanford University in Stanford, California.[2] The project initially involved an unofficial "third founder", lead programmer Scott Hassan, who left before Google was officially founded as a company.[3][4]
+
+While finding a topic for his doctoral thesis in 1995, Page considered exploring the mathematical properties of the World Wide Web by understanding its link structure as a huge graph.[5] His supervisor, Terry Winograd, encouraged him to pick this idea (which Page later recalled as "the best advice I ever got"[6]). Page focused on the problem of finding out which web pages link to a given page, comparing the importance of tracking such backlinks to the role of citations in academic publishing.[5] Page told his ideas to Hassan, who began writing the code to implement Page's ideas.[3]
+
+The research project was nicknamed "BackRub", and it was soon joined by Brin, who was supported by a National Science Foundation Graduate Fellowship.[7] The two had first met in the summer of 1995, when Page was part of a group of potential new students that Brin had volunteered to give a tour around the campus and nearby San Francisco.[5] Both Brin and Page were working on the Stanford Digital Library Project (SDLP), whose goal was "to develop the enabling technologies for a single, integrated and universal digital library". The SDLP was funded through U.S. federal agencies including the National Science Foundation.[7][8][9][10] Brin and Page also received funding from Massive Digital Data Systems (MDDS), a program by the Central Intelligence Agency (CIA) and the National Security Agency (NSA) to fund the improvement of intelligence databases on the disorganized World Wide Web.[11]
+
+Page's web crawler began exploring the web in March 1996, with Page's own Stanford home page serving as the only starting point.[5] Brin and Page developed the PageRank algorithm to convert the backlink data they gathered for a given web page into a measure of importance.[5] The pair realized that a search engine based on PageRank would produce better results than existing search engines, which ranked results according to how many times the search term appeared on a page.[5][12]
+
+Convinced that the pages with the most links to them from other highly relevant Web pages must be the most relevant pages associated with the search, Page and Brin tested their thesis as part of their studies and laid the foundation for their search engine.[13] The first version of Google was released in August 1996 on the Stanford website and used nearly half of Stanford's entire network bandwidth.[14]
+
+Some Rough Statistics (from August 29, 1996)
+
+Total indexable HTML urls: 75.2306 Million
+
+Total content downloaded: 207.022 gigabytes
+
+...
+
+BackRub is written in Java and Python and runs on several Sun Ultras and Intel Pentiums running Linux. The primary database is kept on a Sun Ultra II with 28GB of disk. Scott Hassan and Alan Steremberg have provided a great deal of very talented implementation help. Sergey Brin has also been very involved and deserves many thanks.
+
+— Larry Page[15]
+Scott Hassan and Alan Steremberg were cited by Page and Brin as being critical to the development of Google.[15][16] Rajeev Motwani and Terry Winograd later co-authored with Page and Brin the first paper about the project, describing PageRank and the initial prototype of the Google search engine, published in 1998. Héctor García-Molina and Jeff Ullman were also cited as contributors to the project.[17]
+
+PageRank was influenced by a similar page-ranking and site-scoring algorithm earlier used for RankDex, developed by Robin Li in 1996. Larry Page's patent for PageRank filed in 1998 includes a citation to Li's earlier patent. Li later went on to create the Chinese search engine Baidu in 2000
+In April 2020, Google announced several cost-cutting measures due to the COVID-19 pandemic. Such measures included slowing down hiring for the remainder of 2020, except for a small number of strategic areas, recalibrating the focus and pace of investments in areas like data centers and machines, and non-business essential marketing and travel.[71]
+
+Google and Apple collaborated on the development of smartphone-based contact tracing solutions to address the COVID-19 pandemic. Prominent examples of government initiatives in this field include Singapore's TraceTogether and Australia's COVID Safe apps. TraceTogether was notably the first national Bluetooth contact tracing app to be launched globally, debuting in March 2020.[72]
+
+The 2020 Google services outages disrupted Google services: one in August that affected Google Drive among others, another in November affecting YouTube, and a third in December affecting the entire suite of Google applications. All three outages were resolved within hours.[73][74][75]
+
+In January 2021, the Australian Government proposed legislation that would require Google and Facebook to pay media companies for the right to use their content. In response, Google threatened to close off access to its search engine in Australia.[76]
+
+In March 2021, Google reportedly paid $20 million for Ubisoft ports on Google Stadia.[77] Google spent "tens of millions of dollars" on getting major publishers such as Ubisoft and Take-Two to bring some of their biggest games to Stadia.[citation needed]
+
+In April 2021, The Wall Street Journal reported that Google ran a years-long program called 'Project Bernanke' that used data from past advertising bids to gain an advantage over competing ad services. This was revealed in documents concerning the antitrust lawsuit filed by ten US states against Google in December.[78]
+
+In June 2023, Google stated it would remove Canadian news links from its services throughout the country due to legislation from the Canadian government (Bill C-11) that would require Google and other online platforms such as Facebook to pay for news articles being shown on their platforms.[79][80]
+
+In September 2024, Google and its parent company Alphabet Inc. were fined 2.42 billion euros by the European Commission for an antitrust case surrounding Google's shopping service. The decision was later upheld by both the General Court (European Union) and the European Court of Justice.[81]
+
+In October 2024, the U.S. Department of Justice (DOJ) formally proposed a range of structural and behavioral remedies against Google, including the potential break-up of the company. These proposals explored banning default search placement payments, regulating the use of artificial intelligence in search results, mandating licensing of Google’s search data to competitors, and requiring increased transparency in online ad pricing.[82][83][84]
+
+In November 2024, the U.S. Department of Justice (DoJ) urged a federal court to impose significant changes on Google to address its monopoly in online search. The proposed measures included forcing Google to sell its Chrome browser, sharing data and search results with competitors, and implementing various other restrictions. The DoJ also sought to prohibit Google from re-entering the browser market for five years, selling its Android OS if needed, and halting investments in rival search engines or AI. It also pushed to end exclusive deals where Google paid device makers like Apple to set its search engine as the default. Google called these measures excessive and harmful for consumers, vowing to appeal and a trial was set for April 2025.[85]
+
+In December 2024, Google responded with a counter‑proposal advocating for a narrower, three‑year ban on exclusive default search engine deals, including its long-standing arrangement with Apple. Rather than accepting divestitures of Chrome or Android, Google offered increased flexibility for browser developers and annual renegotiation of default search engine status. Privacy-focused competitors like DuckDuckGo criticized this as inadequate and insufficient to restore market competition. Both parties were expected to submit final remedy proposals ahead of the scheduled remedies trial in April 2025.[86]
+
+In early February 2025, Google announced it was ending its targets for minority recruitment and reevaluating other diversity, equity, and inclusion efforts.[87]
+
+In April 2025, the remedies trial commenced in Washington, D.C. before Judge Amit P. Mehta. The DOJ argued for substantial structural reforms and ongoing oversight, while Google maintained that such measures were excessive and would hinder innovation in the digital and AI sectors.[88][89]
+
+In September 2025, Mehta ruled that Google would not be required to divest of Chrome or Android, but could no longer include search in exclusive contracts. Mehta also ruled that Google would be required to share certain search index and user interaction data with competitors.[90]
+
+Financing and initial public offering
+The first funding for Google as a company was secured in August 1998 in the form of a US$100,000 contribution from Andy Bechtolsheim, co-founder of Sun Microsystems, given to a corporation which did not yet exist.[91]
+
+On June 7, 1999, a round of equity funding totalling $25 million was announced,[92] the major investors being rival venture capital firms Kleiner, Perkins, Caufield & Byers and Sequoia Capital.[91] While Google still needed more funding for their further expansion, Brin and Page were hesitant to take the company public, despite their financial issues. They were not ready to give up control over Google.
+
+Following the closing of the $25 million financing round, Sequoia encouraged Brin and Page to hire a CEO. Brin and Page ultimately acquiesced and hired Eric Schmidt as Google's first CEO in August 2001.[93]
+
+In October 2003, while discussing a possible initial public offering of shares (IPO), Microsoft approached the company about a possible partnership or merger.[94] The deal never materialized. In January 2004, Google announced the hiring of Morgan Stanley and Goldman Sachs Group to arrange an IPO. The IPO was projected to raise as much as $4 billion.
+
+Google's initial public offering took place on August 19, 2004.[95] A total of 19,605,052 shares were offered at a price of $85 per share.[96] Of that, 14,142,135 (another mathematical reference as √2 ≈ 1.4142135) were floated by Google and 5,462,917 by selling stockholders. The sale raised US$1.67 billion, and gave Google a market capitalization of more than $23 billion.[97] Many of Google's employees became instant paper millionaires. Yahoo!, a competitor of Google, also benefited from the IPO because it owned 2.7 million shares of Google.[98]
+
+Following the company's IPO in 2004, founders Sergey Brin and Larry Page and CEO Eric Schmidt requested that their base salary be cut to $1. Subsequent offers by the company to increase their salaries were turned down, primarily because their main compensation continues to come from owning stock in Google. Before 2004, Schmidt made $250,000 per year, and Page and Brin each received an annual salary of $150,000.[99]
+
+There were concerns that Google's IPO would lead to changes in company culture. Reasons ranged from shareholder pressure for employee benefit reductions to the fact that many company executives would become instant paper millionaires.[100] As a reply to this concern, co-founders Brin and Page promised in a report to potential investors that the IPO would not change the company's culture.[101]
+
+The company was listed on the NASDAQ stock exchange under the ticker symbol GOOG. When Alphabet was created as Google's parent company, it retained Google's stock price history and ticker symbol.
+
+Name
+The name "Google" originated from a misspelling of "googol",[102][103] which refers to the number represented by a 1 followed by one-hundred zeros. Page and Brin write in their first paper on PageRank:[17] "We chose our systems name, Google, because it is a common spelling of googol, or 10100 and fits well with our goal of building very large-scale search engines."
+
+There are uses of the name going back at least as far as the creation of the comic strip character Barney Google in 1919. British children's author Enid Blyton used the phrase "Google Bun" in The Magic Faraway Tree (published 1941) and The Folk of the Faraway Tree (published 1946),[104] and called a clown character "Google" in Circus Days Again (published 1942).[105] In April 1953 Clifford D Simaks short story "Retrograde Evolution" was published in Science Fiction Plus magazine wherein an alien race called "Googles" evolves from savages to geniuses overnight. There is also the Googleplex Star Thinker from Douglas Adams' The Hitchhiker's Guide to the Galaxy. Hank McCoy, The Beast, uses the word (spelled Google) in Uncanny X-Men #308. In March 1996, a business called Groove Track Productions applied for a United States trademark for "Google" for various products including several categories of clothing, stuffed toys, board games, and candy. The firm abandoned its application in July 1997.[106]
+
+Having found its way increasingly into everyday language, the verb "google" was added to the Merriam Webster Collegiate Dictionary and the Oxford English Dictionary in 2006, meaning "to use the Google search engine to obtain information on the internet."[107][108] The use of the term itself reflects their mission to organize a seemingly infinite amount of information on the web.[103] The first use of "Google" as a verb in pop culture happened on the TV series Buffy the Vampire Slayer, in 2002.[109] In November 2009, the Global Language Monitor named "Google" No. 7 on its Top Words of the Decade list.[110] In December 2009 the BBC highlighted Google in their "Portrait of the Decade (Words)" series.[111] In May 2012, David Elliott filed a complaint against Google, Inc. claiming that Google's once distinctive mark GOOGLE® has become generic and lacks trademark significance due to its common use as a transitive verb. After losing to Google in UDRP proceedings involving many "Google-related" domain name registrations that he owns, Elliott later sought a declaratory judgment that his domain names are rightfully his, that they do not infringe any trademark rights Google may own, and that all Google's registered GOOGLE® marks should be cancelled since "Google" is now a common generic word worldwide that means "to search the internet."[112]
+
+Partnerships
+Google has worked with several corporations, in order to improve production and services. On September 28, 2005, Google announced a long-term research partnership with NASA which would involve Google building a 1,000,000-square-foot (93,000 m2) R&D center at NASA's Ames Research Center. NASA and Google are planning to work together on a variety of areas, including large-scale data management, massively distributed computing, bio-info-nano convergence, and encouragement of the entrepreneurial space industry. The new building would also include labs, offices, and housing for Google engineers.[113] In October 2006, Google formed a partnership with Sun Microsystems to help share and distribute each other's technologies. As part of the partnership Google will hire employees to help the open source office program OpenOffice.org.[114]
+
+Time Warner's AOL unit and Google unveiled an expanded partnership on December 21, 2005, including an enhanced global advertising partnership and a US$1 billion investment by Google for a 5% stake in AOL.[115] As part of the collaboration, Google plans to work with AOL on video search and offer AOL's premium video service within Google Video. This did not allow users of Google Video to search for AOL's premium-video services. Display advertising throughout the Google network will also increase.
+
+In August 2006, Google signed a $900 million offer with News Corp.'s Fox Interactive Media unit to provide search and advertising on MySpace and other News Corp. websites including IGN, AmericanIdol.com, Fox.com, and Rotten Tomatoes, although Fox Sports is not included as a deal already exists between News Corp. and MSN.[116][117]
+
+On December 6, 2006, British Sky Broadcasting released details of a Sky and Google alliance.[118] This includes a feature where Gmail will link with Sky and host a mail service for Sky, incorporating the email domain "@sky.com".
+
+In 2007, Google displaced America Online as a key partner and sponsor of the NORAD Tracks Santa program.[119][120][121] Google Earth was used for the first time to give visitors to the website the impression that they were following Santa Claus' progress in 3-D.[122] The program also made its presence known on YouTube in 2007 as part of its partnership with Google.[123]
+
+In 2008, Google developed a partnership with GeoEye to launch a satellite providing Google with high-resolution (0.41 m monochrome, 1.65 m color) imagery for Google Earth. The satellite was launched from Vandenberg Air Force Base on September 6, 2008.[124] Google also announced in 2008 that it was hosting an archive of Life Magazine's photographs.[125][126]
+
+In January 2009, Google announced a partnership with the Pontifical Council for Social Communications, allowing the Pope to have his own channel on YouTube.[127]
+
+In January 2013, Google announced a partnership with Kia Motors and Hyundai. The partnership integrates Google Maps and Place into new car models to be released later in 2013.[128]
+
+The Alliance for Affordable Internet (A4AI) was launched in October 2013; Google is part of the coalition of public and private organizations that also includes Facebook, Intel, and Microsoft. Led by Sir Tim Berners-Lee, the A4AI seeks to make Internet access more affordable so that access is broadened in the developing world, where only 31% of people are online. Google will help to decrease Internet access prices so they fall below the UN Broadband Commission's worldwide target of 5% of monthly income.[129]
+
+On September 21, 2017, HTC announced a "cooperation agreement" in which it would sell non-exclusive rights to certain intellectual property, as well as smartphone talent, to Google for $1.1 billion

@@ -6,10 +6,19 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+"""
+Steps =>
+
+1. Load all the files
+2. Chunk the files
+3. Embedded and storing it in VectorDB
+
+"""
 
 def main():
 
     print("Main Function")
+    
 
 
 if __name__ == "__main__":

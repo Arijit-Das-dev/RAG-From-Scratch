@@ -16,16 +16,16 @@ Steps =>
 """
 
 # loading all the files
+def load_documents(file_path = "Docs"):
 
-def load_all_files(file_path = "Docs"):
+    print(f"\n\nLOADING ALL THE FILES FROM {file_path}")
 
-    print(f"LOADING ALL THE FILES FROM {file_path}")
+    if not os.path.exists(file_path): # Checking if the folder path exists or not
 
-    if not os.path.exists(file_path): 
-
-        raise FileNotFoundError(f"{file_path} DOES NOT EXISTS")
+        raise FileNotFoundError(f"{file_path} DOES NOT EXISTS") # if not exist then raise FileNotFoundError
     
-    loader = DirectoryLoader(
+    # Loading the Folder
+    loader = DirectoryLoader( # If exist then load the [folder + files] into the LangChain Directory
 
         path=file_path,
         glob="*.txt",
@@ -34,16 +34,20 @@ def load_all_files(file_path = "Docs"):
     
     print("_______FILE LOADED SUCCESSFULLY_______")
 
-    # Loading all the documents [.txt] from Docs folder
+    # Loading Folders to the LangChain Directory
     documents = loader.load()
 
-    if len(documents) == 0:
+    if len(documents) == 0: # If the documents is empty then raise FileNotFoundError
 
-        raise FileNotFoundError(f"{file_path} CONTAINS NOTHING. ENSURE THAT FILE IS NOT EMPTY.")
+        raise FileNotFoundError(f"{file_path} CONTAINS NOTHING. ENSURE THAT FILE IS NOT EMPTY.") # Error
     
-    for i, doc in documents[:1]:
+    for i, doc in enumerate(documents[:1]):
 
-        print(f"File no. {i+1}")
+        print(f"\nFile no. {i+1}")
+        print(f" \nSource: {doc.metadata['source']}")
+        print(f" \ncontent length: {len(doc.page_content)} characters")
+        print(f" \ncontent preview: {doc.page_content[:100]}...")
+        print(f" \nmetadata: {doc.metadata}")
 
     return documents
 
@@ -52,8 +56,11 @@ def main():
 
     print("Main Function")
 
+    document = load_documents(file_path="Docs")
 
+    print(document)
 
 if __name__ == "__main__":
 
     main()
+    

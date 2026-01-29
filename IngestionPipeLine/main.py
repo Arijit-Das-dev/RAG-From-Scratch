@@ -24,7 +24,8 @@ def load_documents(file_path = "Docs"):
 
         raise FileNotFoundError(f"{file_path} DOES NOT EXISTS") # if not exist then raise FileNotFoundError
     
-    # Loading the Folder
+
+    # Selecting the folders and files inside it
     loader = DirectoryLoader( # If exist then load the [folder + files] into the LangChain Directory
 
         path=file_path,
@@ -41,12 +42,12 @@ def load_documents(file_path = "Docs"):
 
         raise FileNotFoundError(f"{file_path} CONTAINS NOTHING. ENSURE THAT FILE IS NOT EMPTY.") # Error
     
-    for i, doc in enumerate(documents[:1]):
+    for i, doc in enumerate(documents[:1]): # We are selecting only the first file inside that folder => "Docs"
 
         print(f"\nFile no. {i+1}")
-        print(f" \nSource: {doc.metadata['source']}")
-        print(f" \ncontent length: {len(doc.page_content)} characters")
-        print(f" \ncontent preview: {doc.page_content[:100]}...")
+        print(f" \nSource: {doc.metadata['source']}") # File location/Name
+        print(f" \ncontent length: {len(doc.page_content)} characters") # total characters inside the text file
+        print(f" \ncontent preview: {doc.page_content[:100]}...") # Printing only the first 100 characters from the file
         print(f" \nmetadata: {doc.metadata}")
 
     return documents
@@ -57,23 +58,25 @@ def split_documents(document, chunk_size=800, chunk_overlap=0):
 
     print("Spliting all the documents into chunks")
 
+    # All the texts
     text_splitter = CharacterTextSplitter(
 
         chunk_size=chunk_size,
         chunk_overlap=chunk_overlap
     )
 
+    # We are assigning all the splitted texts inside each chunks
     chunks = text_splitter.split_documents(document)
 
     if chunks:
 
-        for i, chunk in enumerate(chunks[:5]):
+        for i, chunk in enumerate(chunks[:6]):
 
             print(f" \nChunk : {i+1}")
-            print(f" \nSource : {chunk.metadata['source']}")
-            print(f" \nLength : {len(chunk.page_content)} characters")
+            print(f" \nSource : {chunk.metadata['source']}") # Location 
+            print(f" \nLength : {len(chunk.page_content)} characters") # How many characters inside the chunk
             print(f" \nContent:")
-            print(f" \n{chunk.page_content}")
+            print(f" \n{chunk.page_content}") # Chunk Contents
             print("_"*50)
 
     return chunks

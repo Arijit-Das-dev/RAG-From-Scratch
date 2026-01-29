@@ -1,10 +1,9 @@
 import os
 from langchain_community.document_loaders import TextLoader, DirectoryLoader
 from langchain_text_splitters import CharacterTextSplitter
+from model import GeminiEmbeddings
 from langchain_chroma import Chroma
-from dotenv import load_dotenv
 
-load_dotenv()
 
 """
 Steps =>
@@ -82,16 +81,34 @@ def split_documents(document, chunk_size=800, chunk_overlap=0):
     return chunks
 
 
+# Getting ready the embeddings and the vectorDB
+
+def create_and_percist_chromaDB(chunks, db_path="chroma_DB"):
+
+    print("Creating Gemini embedding model...")
+    embeddings = GeminiEmbeddings()
+
+    print("Storing embeddings into Chroma DB...")
+    vector_store = Chroma.from_documents(
+        documents=chunks,
+        embedding=embeddings,
+        persist_directory=db_path,
+        collection_metadata={"hnsw:space": "cosine"}
+    )
+
+    print("Vector DB created and persisted successfully.")
+    return vector_store
+
 # main function
 def main():
 
-    print("Main Function")
+    print("\n____________Main Function____________\n")
 
     document = load_documents(file_path="Docs")
 
     splitted_chunks = split_documents(document)
 
-    print(splitted_chunks)
+    
 
 if __name__ == "__main__":
 

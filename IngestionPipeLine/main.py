@@ -58,11 +58,11 @@ def split_documents(document, chunk_size=800, chunk_overlap=0):
 
     print("Spliting all the documents into chunks")
 
-    # All the texts
+    # Splitting All the texts
     text_splitter = CharacterTextSplitter(
 
-        chunk_size=chunk_size,
-        chunk_overlap=chunk_overlap
+        chunk_size=chunk_size, # splitted upto 800 chars 
+        chunk_overlap=chunk_overlap 
     )
 
     # We are assigning all the splitted texts inside each chunks

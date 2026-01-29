@@ -1,7 +1,7 @@
 import os
 from langchain_community.document_loaders import TextLoader, DirectoryLoader
 from langchain_text_splitters import CharacterTextSplitter
-from model import GeminiEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 
 
@@ -83,12 +83,11 @@ def split_documents(document, chunk_size=800, chunk_overlap=0):
 
 # Getting ready the embeddings and the vectorDB
 
-def create_and_percist_chromaDB(chunks, db_path="chroma_DB"):
+def create_and_persist_chroma_db(chunks, db_path="ChromaDB"):
+    embeddings = HuggingFaceEmbeddings(
+        model_name="sentence-transformers/all-MiniLM-L6-v2"
+    )
 
-    print("Creating Gemini embedding model...")
-    embeddings = GeminiEmbeddings()
-
-    print("Storing embeddings into Chroma DB...")
     vector_store = Chroma.from_documents(
         documents=chunks,
         embedding=embeddings,
@@ -96,8 +95,9 @@ def create_and_percist_chromaDB(chunks, db_path="chroma_DB"):
         collection_metadata={"hnsw:space": "cosine"}
     )
 
-    print("Vector DB created and persisted successfully.")
+    print("____SUCCESSFULL_____")
     return vector_store
+    
 
 # main function
 def main():
@@ -108,6 +108,9 @@ def main():
 
     splitted_chunks = split_documents(document)
 
+    vector_db = create_and_persist_chroma_db(splitted_chunks)
+
+    print(vector_db)
     
 
 if __name__ == "__main__":

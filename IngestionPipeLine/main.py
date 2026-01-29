@@ -52,13 +52,43 @@ def load_documents(file_path = "Docs"):
     return documents
 
 
+# Splitting the documents files into chunks
+def split_documents(document, chunk_size=800, chunk_overlap=0):
+
+    print("Spliting all the documents into chunks")
+
+    text_splitter = CharacterTextSplitter(
+
+        chunk_size=chunk_size,
+        chunk_overlap=chunk_overlap
+    )
+
+    chunks = text_splitter.split_documents(document)
+
+    if chunks:
+
+        for i, chunk in enumerate(chunks[:5]):
+
+            print(f" \nChunk : {i+1}")
+            print(f" \nSource : {chunk.metadata['source']}")
+            print(f" \nLength : {len(chunk.page_content)} characters")
+            print(f" \nContent:")
+            print(f" \n{chunk.page_content}")
+            print("_"*50)
+
+    return chunks
+
+
+# main function
 def main():
 
     print("Main Function")
 
     document = load_documents(file_path="Docs")
 
-    print(document)
+    splitted_chunks = split_documents(document)
+
+    print(splitted_chunks)
 
 if __name__ == "__main__":
 

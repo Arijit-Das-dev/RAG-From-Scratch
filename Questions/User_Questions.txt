@@ -1,0 +1,34 @@
+RAG Evaluation Questions based on Google Technology Ecosystem
+
+Simple / Factual
+1. What was Google’s original motivation behind building large-scale distributed systems?
+2. Which algorithm did early Google Search rely on to rank web pages?
+3. What role does machine learning play in modern Google Search?
+4. What is TensorFlow and why is it important?
+5. What are Tensor Processing Units (TPUs) designed for?
+6. What services does Google Cloud Platform provide?
+7. Why is Android considered a major technological achievement?
+8. What architectural feature makes Google Chrome more stable?
+9. How does YouTube use machine learning in its platform?
+10. What data sources does Google Maps rely on?
+
+Medium / Conceptual
+11. How did Google Search evolve from link-based ranking to AI-driven understanding?
+12. Why are TPUs more efficient for AI workloads than traditional hardware?
+13. How does Kubernetes fit into Google Cloud’s ecosystem?
+14. In what ways does Google ensure scalability and reliability of its services?
+15. How does machine learning improve user experience across Google products?
+
+Multi-hop / Reasoning
+16. How do Google’s distributed systems support both Search and YouTube at global scale?
+17. What connection exists between Google’s AI research and products like Search, Assistant, and Translate?
+18. How does Google combine hardware, software, and AI to optimize large-scale systems?
+19. Why is data processing infrastructure critical for services like BigQuery and Maps?
+20. How do Google’s security practices support its global data center operations?
+
+Long-form / Analytical
+21. Explain how Google’s focus on scalability influenced the design of its AI and cloud infrastructure.
+22. Discuss the role of machine learning across multiple Google products mentioned in the text.
+23. Analyze how Google’s custom hardware contributes to its leadership in AI.
+24. Describe how Google’s technologies collectively support billions of users worldwide.
+25. How do Google’s research initiatives impact the broader technology industry?

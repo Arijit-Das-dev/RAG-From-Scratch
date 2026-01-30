@@ -83,7 +83,7 @@ def split_documents(document, chunk_size=800, chunk_overlap=0):
 
 # Getting ready the embeddings and the vectorDB
 
-def create_and_persist_chroma_db(chunks, db_path="DB/ChromaDB"):
+def create_and_persist_chroma_db(chunks, db_path="dbChromaDB"):
     embeddings = HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2"
     )

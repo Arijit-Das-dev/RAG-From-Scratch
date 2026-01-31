@@ -20,7 +20,7 @@ db = Chroma(
 
 
 # User query
-query = "What are Tensor Processing Units (TPUs) designed for?"
+query = "What data sources does Google Maps rely on?"
 
 
 # Top-k [3] relevent chunks

@@ -3,90 +3,90 @@
 Retrieval-Augmented Generation (RAG) is an advanced AI architecture that combines information retrieval with Large Language Models (LLMs) to generate more accurate, factual, and context-aware responses.
 
 Instead of relying only on the model’s internal knowledge, RAG systems retrieve relevant information from external data sources (documents, PDFs, databases, APIs, etc.) and use that retrieved context to guide the LLM’s generation.
+<br>
+# This approach significantly reduces:
 
-This approach significantly reduces:
+1. Hallucinations ❌
 
-Hallucinations ❌
+2. Outdated answers ❌
 
-Outdated answers ❌
-
-Lack of domain knowledge ❌
-
-🧠 Why RAG is Important
+3. Lack of domain knowledge ❌
+<br>
+# 🧠 Why RAG is Important ?
 
 Traditional LLMs:
 
-Are trained on static data
+i) Are trained on static data
 
-Cannot access private or real-time knowledge
+ii) Cannot access private or real-time knowledge
 
-Often hallucinate answers
+iii) Often hallucinate answers
+<br>
+# RAG systems:
 
-RAG systems:
+→ Work with custom & private data
 
-Work with custom & private data
+→ Support real-time updates
 
-Support real-time updates
+→ Produce grounded, verifiable outputs
 
-Produce grounded, verifiable outputs
+→ Are used in production AI systems
+<br>
+# RAG is widely used in:
 
-Are used in production AI systems
+1. Chatbots & AI assistants
 
-RAG is widely used in:
+2. Enterprise knowledge bases
 
-Chatbots & AI assistants
+3. Document Q&A systems
 
-Enterprise knowledge bases
+4. AI search engines
 
-Document Q&A systems
+5. Customer support automation
+<br>
+# ⚙️ Core Components of a RAG System
 
-AI search engines
-
-Customer support automation
-
-⚙️ Core Components of a RAG System
-
-Data Source
+# Data Source :
 PDFs, text files, web pages, databases, APIs, etc.
 
-Chunking & Preprocessing
+# Chunking & Preprocessing
 Documents are split into smaller chunks for better retrieval.
 
-Embedding Model
+# Embedding Model
 Converts text chunks into vector embeddings.
 
-Vector Database
+# Vector Database
 Stores embeddings and enables fast similarity search
 (FAISS, Chroma, Pinecone, Weaviate, etc.)
 
-Retriever
+# Retriever
 Fetches the most relevant chunks based on user queries.
 
-LLM (Generator)
+# LLM (Generator)
 Uses retrieved context + user query to generate final answers.
+<br>
+# 🔁 RAG Workflow (High Level)
 
-🔁 RAG Workflow (High Level)
+1. User asks a question
 
-User asks a question
+2. Query is converted into embeddings
 
-Query is converted into embeddings
+3. Relevant documents are retrieved from the vector database
 
-Relevant documents are retrieved from the vector database
+4. Retrieved context is injected into the LLM prompt
 
-Retrieved context is injected into the LLM prompt
+5. LLM generates a grounded response
+<br>
+# 🎯 Goal of This Repository
 
-LLM generates a grounded response
+• This repository is a hands-on learning journey focused on:
 
-🎯 Goal of This Repository
+• Understanding RAG concepts from scratch
 
-This repository is a hands-on learning journey focused on:
+• Building RAG pipelines step by step
 
-Understanding RAG concepts from scratch
+• Experimenting with embeddings, retrievers, and LLMs
 
-Building RAG pipelines step by step
+• Exploring real-world, production-oriented RAG workflows
 
-Experimenting with embeddings, retrievers, and LLMs
-
-Exploring real-world, production-oriented RAG workflows
-
-The repo evolves gradually from basic RAG concepts → advanced systems, following an industry-aligned approach.
+• The repo evolves gradually from basic RAG concepts → advanced systems, following an industry-aligned approach.

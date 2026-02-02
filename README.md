@@ -77,6 +77,7 @@ Uses retrieved context + user query to generate final answers.
 
 5. LLM generates a grounded response
 <br>
+
 # 🎯 Goal of This Repository
 
 • This repository is a hands-on learning journey focused on:

@@ -1,5 +1,9 @@
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 from langchain_chroma import Chroma
+from model import GroqModel
+
+# model
+g = GroqModel(prompt_path="prompt.txt")
 
 # Targeted DataBase where all the searches will be done
 target_db = "db/ChromaDB"
@@ -20,7 +24,7 @@ db = Chroma(
 
 
 # User query
-query = "What data sources does Google Maps rely on?"
+query = "What is TensorFlow and why is it important?"
 
 
 # Top-k [3] relevent chunks
@@ -37,4 +41,10 @@ for i, doc in enumerate(relevent_docs, 1):
 
     print(f"Document : {i}")
     print("\nCONTENT")
-    print(f"\n {doc.page_content}")
+    content = doc.page_content
+    
+    for token in g.stream_chat(content):
+
+        print(token, end= " ")
+    
+    print("\n" + "-"*50)

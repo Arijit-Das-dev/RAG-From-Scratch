@@ -15,7 +15,7 @@ Steps =>
 """
 
 # loading all the files
-def load_documents(file_path = "Docs"):
+def load_documents(file_path):
 
     print(f"\n\nLOADING ALL THE FILES FROM {file_path}")
 

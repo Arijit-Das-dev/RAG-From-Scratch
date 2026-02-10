@@ -93,3 +93,9 @@ Uses retrieved context + user query to generate final answers.
 • Exploring real-world, production-oriented RAG workflows
 
 • The repo evolves gradually from basic RAG concepts → advanced systems, following an industry-aligned approach.
+
+## 📚 Learning Resources & References
+- 🎥 [RAG Fundamentals & Architecture](https://youtu.be/63B-3rqRFbQ?si=tJtcohHYX2CBA7lr)
+- 🎥 [Document Ingestion & Chunking Strategy](https://youtu.be/fZM3oX4xEyg?si=xUj15-dHITe3hpJ-)
+- 🎥 [Vector Databases & Semantic Search](https://youtu.be/wTVTkOb3SZc?si=AMxFPZsu6Lv7Fmln)
+- 🎥 [End-to-End RAG Pipeline Implementation](https://youtu.be/wd7TZ4w1mSw?si=laK5r_M2epqP5plE)

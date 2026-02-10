@@ -95,7 +95,17 @@ Uses retrieved context + user query to generate final answers.
 • The repo evolves gradually from basic RAG concepts → advanced systems, following an industry-aligned approach.
 
 ## 📚 Learning Resources & References
-- 🎥 [RAG Fundamentals & Architecture](https://youtu.be/63B-3rqRFbQ?si=tJtcohHYX2CBA7lr)
-- 🎥 [Document Ingestion & Chunking Strategy](https://youtu.be/fZM3oX4xEyg?si=xUj15-dHITe3hpJ-)
-- 🎥 [Vector Databases & Semantic Search](https://youtu.be/wTVTkOb3SZc?si=AMxFPZsu6Lv7Fmln)
-- 🎥 [End-to-End RAG Pipeline Implementation](https://youtu.be/wd7TZ4w1mSw?si=laK5r_M2epqP5plE)
+- 🎥 [RAG Fundamentals & Core Concepts](https://youtu.be/63B-3rqRFbQ?si=dBMJoo5MA43XkwiD)
+- 🎥 [LLM + RAG Architecture Overview](https://youtu.be/9iGvXxH_fdE?si=ACJvQI-zLAf-zMvR)
+- 🎥 [LLM + RAG Architecture Overview (Extended)](https://youtu.be/9iGvXxH_fdE?si=ACJvQI-zLAf-zMvR)
+- 🎥 [Document Ingestion Pipeline Design](https://youtu.be/brbd3AvsJWs?si=RaNiBN-jK1uLcLp1)
+- 🎥 [Chunking Strategies for RAG](https://youtu.be/nbJVJ1RPBEg?si=gmvhT1hASqvye-ht)
+- 🎥 [Embeddings Explained for Semantic Search](https://youtu.be/i_v4Vm2KBuc?si=AMtDBUNxrqqUz-rB)
+- 🎥 [Vector Databases & Similarity Search](https://youtu.be/ZWXXpK4TIDY?si=SoKB-ne8jcEf04Ti)
+- 🎥 [Retriever Design & Top-K Selection](https://youtu.be/POE8LDjdAw4?si=yJ3P8-Yt35ZXknM8)
+- 🎥 [Context Window & Prompt Engineering](https://youtu.be/Ht8ImZT6kJ0?si=6XfJZ3eZnF2e6FyU)
+- 🎥 [LLM Inference Optimization](https://youtu.be/FPYtGK6HYRg?si=FnDuUwrBSxf1d6Sm)
+- 🎥 [End-to-End RAG Implementation](https://youtu.be/slG8qWvIPKg?si=PEGHZMHp4OWbmNuD)
+- 🎥 [RAG Failure Modes & Debugging](https://youtu.be/dHgvDTXVvPA?si=g7OnO9HP96X7SWx5)
+- 🎥 [Production-Ready RAG Patterns](https://youtu.be/kNU-J4NNNhk?si=ICpPmHcf4eQL8d_D)
+- 🎥 [Scaling RAG Systems](https://youtu.be/1qQCuWiRIfA?si=C5MumrVdP-g4RouL)

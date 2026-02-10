@@ -109,3 +109,6 @@ Uses retrieved context + user query to generate final answers.
 - 🎥 [RAG Failure Modes & Debugging](https://youtu.be/dHgvDTXVvPA?si=g7OnO9HP96X7SWx5)
 - 🎥 [Production-Ready RAG Patterns](https://youtu.be/kNU-J4NNNhk?si=ICpPmHcf4eQL8d_D)
 - 🎥 [Scaling RAG Systems](https://youtu.be/1qQCuWiRIfA?si=C5MumrVdP-g4RouL)
+- 🎥 [Scaling RAG Systems](https://youtu.be/1qQCuWiRIfA?si=3U1tIJa1dOplGTNb)
+- 🎥 [Advanced RAG Retrieval Techniques](https://youtu.be/7WEtNxVh1vo?si=-_JTmXCEBcYsWTn4)
+- 🎥 [Optimizing Context & Prompt Design for RAG](https://youtu.be/VWA15n6uiS4?si=-EdMRDG_7sdaGVz8)
